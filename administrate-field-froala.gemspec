@@ -4,7 +4,7 @@ $:.push File.expand_path("../lib", __FILE__)
 
 Gem::Specification.new do |gem|
   gem.name = "administrate-field-froala"
-  gem.version = 0.1.4 # Administrate::Field::Froala::VERSION
+  gem.version = "0.1.4" # Administrate::Field::Froala::VERSION
   gem.authors = ["Michal Valasek", "Rikki Pitt"]
   gem.email = ["michal.valasek@gmail.com", "rikkipitt@gmail.com"]
   gem.homepage = "https://github.com/michalvalasek/administrate-field-froala"
