@@ -4,6 +4,29 @@
 
 A plugin for adding [Froala] editor support in [Administrate].
 
+## Warning! Hotfix for Rails5 and thoughtbot/administrate master.
+
+gem 'administrate', github: 'thoughtbot/administrate'
+gem 'administrate-field-froala', github: 'tkosuga/administrate-field-froala'
+
+Add follow code your `administrate/application.scss`:
+
+```css
+@import "froala_editor.min";
+@import "froala_style.min";
+```
+
+Add froala plugins.
+
+```css
+@import "plugins/image.min";
+@import "plugins/table.min";
+@import "plugins/fullscreen.min";
+```
+
+Thanks excellent administrate plugin!
+
+
 ## Usage
 
 Add to your `Gemfile`:
